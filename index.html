@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes OTA</title>
+<style>
+  body { font: -apple-system-body; margin: 0; padding: 32px 20px; background: #0b0b0d; color: #f2f2f7; }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  p.sub { color: #8e8e93; font-size: 14px; margin: 0 0 28px; }
+  a.install { display: block; text-align: center; background: #0a84ff; color: #fff; text-decoration: none;
+              font-size: 17px; font-weight: 600; padding: 15px; border-radius: 12px; }
+  .hint { color: #8e8e93; font-size: 13px; line-height: 1.6; margin-top: 22px; }
+  code { background: #1c1c1e; padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+</style>
+</head>
+<body>
+  <h1>Hermes OTA</h1>
+  <p class="sub">开发版安装页 · 每次更新覆盖安装，数据保留</p>
+  <a class="install" href="itms-services://?action=download-manifest&amp;url=https://lengzhang.github.io/hermes-ota/manifest.plist">安装 / 更新</a>
+  <p class="hint">
+    第一次安装后如果打不开 App：设置 → 通用 → VPN与设备管理 → 信任 “Apple Development: leng Zhang”。<br>
+    必须用 Safari 打开本页，微信/其他浏览器会拦住 <code>itms-services</code>。
+  </p>
+</body>
+</html>
