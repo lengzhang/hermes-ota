@@ -1,6 +1,6 @@
 {
- "build": 40,
+ "build": 41,
  "version": "1.0",
- "published_at": "2026-11-26T16:10:43+08:00",
+ "published_at": "2026-11-26T16:23:57+08:00",
  "manifest": "https://cdn.jsdelivr.net/gh/lengzhang/hermes-ota@main/lzbotpocket.xml"
 }
